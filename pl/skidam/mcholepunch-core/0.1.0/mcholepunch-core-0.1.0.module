@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.skidam",
+    "module": "mcholepunch-core",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mcholepunch-core-0.1.0.jar",
+          "url": "mcholepunch-core-0.1.0.jar",
+          "size": 77020,
+          "sha512": "c12f3bd26e6c7e94deed303277ba6a3c814f737c323a5d4fbc6ab7510df73916dbee9da2da59907bad98ddd55254675b8822af9fc6793d342b3a3a8458fa9eb2",
+          "sha256": "a8ba81f1e54aef6c0ffe5507c152a7c38799e3b5846a05e68bc2789274d9aa1e",
+          "sha1": "d2d7fbc8cf9270db2c88963105ccbb71b18a0472",
+          "md5": "4585be7042fbf53b51ffd7a151d4203c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.26.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mcholepunch-core-0.1.0.jar",
+          "url": "mcholepunch-core-0.1.0.jar",
+          "size": 77020,
+          "sha512": "c12f3bd26e6c7e94deed303277ba6a3c814f737c323a5d4fbc6ab7510df73916dbee9da2da59907bad98ddd55254675b8822af9fc6793d342b3a3a8458fa9eb2",
+          "sha256": "a8ba81f1e54aef6c0ffe5507c152a7c38799e3b5846a05e68bc2789274d9aa1e",
+          "sha1": "d2d7fbc8cf9270db2c88963105ccbb71b18a0472",
+          "md5": "4585be7042fbf53b51ffd7a151d4203c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mcholepunch-core-0.1.0-sources.jar",
+          "url": "mcholepunch-core-0.1.0-sources.jar",
+          "size": 38769,
+          "sha512": "cb2b8a61ae674f40fbc2c4379277319493fde1d486b0a3fc098fabadc7e9f9a39ac4bc5a84ef7464d948969ed79ef85d5590686de9509dbd07250c3e9fef6fd5",
+          "sha256": "77683c1e164bd8cffa59cc6c2625cfacd760e96ca126bb13c3d9d28b53df9efc",
+          "sha1": "e2d1f6ff3bf5b97e2e93b554686ae8b74527fd5e",
+          "md5": "7e4734201f5920b2544025ba711bc18c"
+        }
+      ]
+    }
+  ]
+}

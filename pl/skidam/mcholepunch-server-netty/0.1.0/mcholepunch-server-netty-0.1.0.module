@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.skidam",
+    "module": "mcholepunch-server-netty",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "pl.skidam",
+          "module": "mcholepunch-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport",
+          "version": {
+            "requires": "4.1.121.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.121.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec",
+          "version": {
+            "requires": "4.1.121.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mcholepunch-server-netty-0.1.0.jar",
+          "url": "mcholepunch-server-netty-0.1.0.jar",
+          "size": 31472,
+          "sha512": "423686ee85b3ba8147dfcb221b0bcb4bf79ff03ef12d5b4d6fb641a868e80fc1fa8255b437bb861ec8774c8b230af15f72b1659637ac5fef7abc03107a725e8c",
+          "sha256": "acde5ecee9ab476292f7ed514d2ef14559a26b67c53aeac3762243b2b8ddf13a",
+          "sha1": "bcdbf646625bb23b26eb9932f6e5ed86d8f17ed6",
+          "md5": "a75ac7e83b6bbcfc167320f61f699725"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "pl.skidam",
+          "module": "mcholepunch-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport",
+          "version": {
+            "requires": "4.1.121.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.121.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec",
+          "version": {
+            "requires": "4.1.121.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mcholepunch-server-netty-0.1.0.jar",
+          "url": "mcholepunch-server-netty-0.1.0.jar",
+          "size": 31472,
+          "sha512": "423686ee85b3ba8147dfcb221b0bcb4bf79ff03ef12d5b4d6fb641a868e80fc1fa8255b437bb861ec8774c8b230af15f72b1659637ac5fef7abc03107a725e8c",
+          "sha256": "acde5ecee9ab476292f7ed514d2ef14559a26b67c53aeac3762243b2b8ddf13a",
+          "sha1": "bcdbf646625bb23b26eb9932f6e5ed86d8f17ed6",
+          "md5": "a75ac7e83b6bbcfc167320f61f699725"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mcholepunch-server-netty-0.1.0-sources.jar",
+          "url": "mcholepunch-server-netty-0.1.0-sources.jar",
+          "size": 16563,
+          "sha512": "6fd9f6fe62842ab86590aeab0c40d97b0b86847c72fc34b6a7a68018f48a31a42e040e2a9011b0619a5381ee9d1c905f2b73406ace0f963d17ca2506169d9216",
+          "sha256": "675f1d0977d6b8259a2678671ad0a0756e8622a17924063d3928abb317d93d94",
+          "sha1": "890f7074d747ea02774a6fcb5b7641912adf524d",
+          "md5": "ea0c4e75c11f38eac10ba7342edfc2b9"
+        }
+      ]
+    }
+  ]
+}
