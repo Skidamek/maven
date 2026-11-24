@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.skidam",
+    "module": "aircompressor",
+    "version": "2.0.3-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "aircompressor-2.0.3-1.jar",
+          "url": "aircompressor-2.0.3-1.jar",
+          "size": 104460,
+          "sha512": "e45e65390a312cbc10c20f105022064c35d58e5e02dbf05311d665cc1f52bc97ad95fc7d88d0502c75ac29b00741927a99b3291e07345bbd43e65b6ba6209f17",
+          "sha256": "fe76443bae79c03c21c0a5c346a0323d85d5fdc2cded3753536398d332ed5b69",
+          "sha1": "37cd1070f1c866d09435c00e8438db5023d12fff",
+          "md5": "6e4453cef319da7e8987a71fe1e876e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aircompressor-2.0.3-1.jar",
+          "url": "aircompressor-2.0.3-1.jar",
+          "size": 104460,
+          "sha512": "e45e65390a312cbc10c20f105022064c35d58e5e02dbf05311d665cc1f52bc97ad95fc7d88d0502c75ac29b00741927a99b3291e07345bbd43e65b6ba6209f17",
+          "sha256": "fe76443bae79c03c21c0a5c346a0323d85d5fdc2cded3753536398d332ed5b69",
+          "sha1": "37cd1070f1c866d09435c00e8438db5023d12fff",
+          "md5": "6e4453cef319da7e8987a71fe1e876e7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aircompressor-2.0.3-1-sources.jar",
+          "url": "aircompressor-2.0.3-1-sources.jar",
+          "size": 86103,
+          "sha512": "456017ce6eae5898a1ec1afb76f4e7c796623fd3f5b2a20b75e80fa5b02d9e0ca82af8be9f7e709f8e7ba6fd9b6ef1cfaddcb03c24f6a9c74ab8ff3692b32295",
+          "sha256": "e0e1522df60b7504c58379e0fdc1a55375f9f1df29dbf4ba18a996d4aed93554",
+          "sha1": "c360e9ff8b0362f0c3e784a482caa82beecbbefe",
+          "md5": "944c11c48e34d02f7a102b29daf4e8ac"
+        }
+      ]
+    }
+  ]
+}
