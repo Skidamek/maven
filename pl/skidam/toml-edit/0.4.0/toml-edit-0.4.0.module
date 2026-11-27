@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.skidam",
+    "module": "toml-edit",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "toml-edit-0.4.0.jar",
+          "url": "toml-edit-0.4.0.jar",
+          "size": 143334,
+          "sha512": "2ca69f16cac0555a0990a267735546a80d92ad65291817475ab8d264421607bda550d99af00a94fa44c82754bddec0ca668636c8e8a23d6489a009a68063712a",
+          "sha256": "0cf80434bd4d67c0ff9061815419e7571f27191ff064b1bb93d210fd9e07a32b",
+          "sha1": "9fd3f28ca585a219f97a7c3b453b3202ef502d33",
+          "md5": "30afb05480d546dd9ad3ec8a6a355f0d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "toml-edit-0.4.0.jar",
+          "url": "toml-edit-0.4.0.jar",
+          "size": 143334,
+          "sha512": "2ca69f16cac0555a0990a267735546a80d92ad65291817475ab8d264421607bda550d99af00a94fa44c82754bddec0ca668636c8e8a23d6489a009a68063712a",
+          "sha256": "0cf80434bd4d67c0ff9061815419e7571f27191ff064b1bb93d210fd9e07a32b",
+          "sha1": "9fd3f28ca585a219f97a7c3b453b3202ef502d33",
+          "md5": "30afb05480d546dd9ad3ec8a6a355f0d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "toml-edit-0.4.0-sources.jar",
+          "url": "toml-edit-0.4.0-sources.jar",
+          "size": 71991,
+          "sha512": "4754dcc2addc83b74253dfb537c7bee9ec4c0fa8724698fbe019fb216a40c78678e9f763553acdfab30b9a2f4b50f7df0647238f3adfe8e8795fe58875794252",
+          "sha256": "e690c022a4dbfc4897f717d9f9674497fa72b5bf18fa7318612803d62ffcdb3f",
+          "sha1": "23152c558bc39823e4b58d6a1b7ffcc35781442a",
+          "md5": "3d96e0267387f826a74d58f516973a20"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "toml-edit-0.4.0-javadoc.jar",
+          "url": "toml-edit-0.4.0-javadoc.jar",
+          "size": 202580,
+          "sha512": "5a38df0349060add84c9e7aadca9ca6f12522b613c40cbe68ea9789675971b87f4632154906433219451845f950d798f1efbd9637db4a6922ab1af886a10e1e3",
+          "sha256": "8bf5106da365dcc869a144f321e2c8bc25850ec3d7be7f1659a5e5cdb817fbf3",
+          "sha1": "7a7232131c7454b5486726ba7ec2216dd5498845",
+          "md5": "6d2518e1b1d97ab4b57de0cdb9bc6fb0"
+        }
+      ]
+    }
+  ]
+}
